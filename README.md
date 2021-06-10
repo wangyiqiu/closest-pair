@@ -3,6 +3,8 @@
 
 This repository contains code for our SoCG'21 paper: A Parallel Batch-Dynamic Data Structure for the Closest Pair Problem ([arXiv](https://arxiv.org/abs/2010.02379), [talk](https://www.youtube.com/watch?v=oBZqCgdEdpY&t)). It contains fast code for a parallel batch-dynamic data structure that maintains the Euclidean closest pair, as well as four parallel implementations of the static closest pair problem (based on Rabin's randomized algorithm, the divide-and-conquer algorithm, the sieve algorithm, and the incremental algorithm).
 
+## News
+
 The code in this repository is being gradually reimplemented in the [Pargeo](https://github.com/wangyiqiu/pargeo) project, an open-source collection of parallel algorithms in computational geometry. Please check back for further details.
 
 ## Data set
