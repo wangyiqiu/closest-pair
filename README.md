@@ -3,6 +3,8 @@
 
 This repository contains code for our SoCG'21 paper (to appear): A Parallel Batch-Dynamic Data Structure for the Closest Pair Problem ([arXiv](https://arxiv.org/abs/2010.02379)). It contains fast code for a parallel batch-dynamic data structure that maintains the Euclidean closest pair, as well as four parallel implementations of the static closest pair problem (based on Rabin's randomized algorithm, the divide-and-conquer algorithm, the sieve algorithm, and the incremental algorithm).
 
+The code in this repository is being gradually moved to the [Pargeo](https://github.com/wangyiqiu/pargeo) project, an open-source collection of parallel algorithms in computational geometry. Please check back for further details.
+
 ## Data set
 
 We included a small example data set in the `closest-pair/data` folder. We include larger data sets at this [dropbox link](https://www.dropbox.com/sh/ehhv9thpuvb36jq/AADQowvv9FfQ8ZYdAPL9qJs1a?dl=0). More data sets also can be generated using the data generator in [pbbsbench](https://github.com/cmuparlay/pbbsbench/tree/master/testData/geometryData). A data set in the same format will also work, as long as they have a header `pbbs_sequencePoint<k>d`, where `<k>` specifies the dimensionality, a number between 2 and 9 inclusive, followed by lines of space-delimited point coordinates.
